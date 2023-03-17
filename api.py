@@ -26,6 +26,12 @@ books = [{
         "bookDescription": "The overwhelming majority of a software system's lifespan is spent in use, not in design or implementation. So, why does conventional wisdom insist that software engineers focus primarily on the design and development of large-scale computing systems?",
         "bookAuthors" : "Betsy Beyer, Chris Jones, Jennifer Petoff"
     },
+    {
+        "bookTitle": "The Phoenix Project",
+        "bookImage": "https://itrevolution.com/wp-content/uploads/2022/06/TPP_3rd_cover_border-331x496.jpg",
+        "bookDescription": "Five years after this sleeper hit took on the world of IT and flipped it on its head, the 5th Anniversary Edition of The Phoenix Project continues to guide IT in the DevOps revolution. In this newly updated and expanded edition of the bestselling The Phoenix Project, co-author Gene Kim includes a new afterword and a deeper delve into the Three Ways as described in The DevOps Handbook.",
+        "bookAuthors": "KEVIN BEHR, GEORGE SPAFFORD"
+    },
 ]
 
 # Schema For the Book Request JSON
