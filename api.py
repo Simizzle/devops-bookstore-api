@@ -51,8 +51,8 @@ class BookList(Resource):
         self.reqparse = reqparse.RequestParser()
     @metrics.summary('requests_by_status', 'Request latencies by status', labels={'status': lambda r: r.status_code})
     def get(self):
-        return{"books": [marshal(book, bookFields) for book in books]}
-
+        return{"books": [marshal(book, bookFields) for book in books]
+               }, 200
 
 api.add_resource(BookList, "/books")
 
